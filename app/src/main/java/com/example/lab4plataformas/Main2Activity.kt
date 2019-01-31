@@ -10,7 +10,7 @@ class Main2Activity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main2)
     }
-
+    //Regresa a la actividad principal al seleccionar atras
     override fun onBackPressed() {
         val intent: Intent = Intent(  this, MainActivity::class.java)
         startActivity(intent)
